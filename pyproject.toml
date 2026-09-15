@@ -2,7 +2,13 @@
 name = "deep-learning-playground"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "jax>=0.11.1",
+    "numpy>=2.5.3",
+    "tensorflow>=2.21.0",
+    "torch>=2.14.0",
+    "torchvision>=0.29.0",
+]
 
 [dependency-groups]
 dev = [
