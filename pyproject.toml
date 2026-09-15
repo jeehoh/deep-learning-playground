@@ -7,4 +7,5 @@ dependencies = []
 [dependency-groups]
 dev = [
     "jupyter>=1.1.1",
+    "tornado<6.5.9",
 ]
